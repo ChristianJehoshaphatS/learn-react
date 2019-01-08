@@ -1,0 +1,21 @@
+.menu-img {
+  position: fixed;
+  width: 3px;
+  height: 13px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  width: 180px;
+  height: 130px;
+}
+
+.menu button {
+  display: inline-block;
+  justify-content: center;
+  padding: 0px 10px;
+  font-size: 12px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12),
+    0 3px 1px -2px rgba(0, 0, 0, 0.2);
+}

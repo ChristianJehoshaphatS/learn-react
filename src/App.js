@@ -1,25 +1,23 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
+import DropdownMenu from "./DropMenu";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <img src={`img/a.png`} alt="aaaa" />
+        <div className="Vidtitle">
+          <p>lofi hip hop - beats to sleep to</p>
+          <DropdownMenu className="Drop" />
+        </div>
+        <div className="Vid">
+          <p>the bootleg boy</p>
+          <div className="watch">
+            <p>1.2M Views .</p>
+            <p> 3 Months Ago</p>
+          </div>
+        </div>
       </div>
     );
   }
