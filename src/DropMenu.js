@@ -31,7 +31,7 @@ class Dropdown extends Component {
 
   render() {
     return (
-      <div>
+      <div className="menu">
         <img
           className="menu-img"
           src={`img/3dot.png`}
@@ -41,7 +41,7 @@ class Dropdown extends Component {
 
         {this.state.showMenu ? (
           <div
-            className="menu"
+            className="menu-choice"
             ref={element => {
               this.dropdownMenu = element;
             }}
