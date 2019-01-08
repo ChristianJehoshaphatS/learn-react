@@ -1,6 +1,7 @@
 .Card {
   margin: 10px 5px;
   text-decoration: none;
+  border-radius: 7px;
 }
 
 .Card:hover {
