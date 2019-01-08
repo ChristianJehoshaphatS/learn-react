@@ -1,26 +1,7 @@
 .App {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 200px;
-  margin: 10px;
+  flex-direction: row;
+  justify-content: spa;
+  margin: 10px 30px;
   line-height: 15px;
-}
-
-.App .Vidtitle {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.App .Vid {
-  line-height: 0px;
-  color: rgba(0, 0, 0, 0.596);
-  background-color: rgb(255, 255, 255);
-}
-
-.App .Vid .watch {
-  display: flex;
-  flex-direction: row;
-  line-height: 0px;
 }

@@ -1,10 +1,11 @@
 .menu-img {
-  position: fixed;
+  /* position: fixed; */
   width: 3px;
   height: 13px;
 }
 
 .menu {
+  position: fixed;
   display: flex;
   flex-direction: column;
   width: 180px;

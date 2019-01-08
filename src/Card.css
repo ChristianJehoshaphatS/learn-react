@@ -1,0 +1,27 @@
+.Card {
+  margin: 10px 30px;
+}
+
+.Card .image {
+  width: 250px;
+  height: 160px;
+}
+
+.Card .Vidtitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Card .Vid {
+  line-height: 0px;
+  color: rgba(0, 0, 0, 0.596);
+  background-color: rgb(255, 255, 255);
+}
+
+.Card .Vid .watch {
+  display: flex;
+  flex-direction: row;
+  line-height: 0px;
+}
