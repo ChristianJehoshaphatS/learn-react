@@ -5,7 +5,7 @@ import "./Card.css";
 class Card extends Component {
   render() {
     return (
-      <div className="Card">
+      <a href="https://www.youtube.com/watch?v=nSeg_XDiMf0" className="Card">
         <img className="image" src={`img/a.png`} alt="aaaa" />
         <div className="Vidtitle">
           <p>lofi hip hop - beats to sleeps to</p>
@@ -18,7 +18,7 @@ class Card extends Component {
             <p> 3 Months Ago</p>
           </div>
         </div>
-      </div>
+      </a>
     );
   }
 }
